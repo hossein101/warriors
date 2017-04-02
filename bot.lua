@@ -13,8 +13,7 @@ redis = (loadfile "./libs/redis.lua")()
 serpent = require('serpent')
 serp = require 'serpent'.block
 sudo_users = {
-    269775099,
-    yourid,
+    315272489,
 	0
 }
 
@@ -1078,21 +1077,16 @@ if input:match("^[#!/][Hh]elp$") and is_mod(msg) or input:match("^[Hh]elp$") and
         .."🏅 ورژن 8.0 اوربیتال واریور - @Porniv"
         tdcli.sendText(chat_id, msg.id_, 0, 1, nil, text, 1, 'md')
       end
-if input:match("^[#!/[Ww]arriors$") and is_mod(msg) or input:match("^[Ww]arriors$") and is_mod(msg) or input:match("^واریور$") and is_mod(msg) then
-        local text = "🏅 واریور تی جی ورژن 8.0: \n"
+if input:match("^[#!/[Ww]ollf$") and is_mod(msg) or input:match("^[W]olf$") and is_mod(msg) or input:match("^ولف بات$") and is_mod(msg) then
+        local text = "🏅 ولف تی جی ورژن 8.0: \n"
 	.." واریور رباتي قدرتمند جهت مديريت سوپرگروه: \n"
         .."🏅 نوشته شده برپايه tdcli(New TG) \n"
-        .."🏅  بيس = TeleMute \n"
         .."🏅 پشتيباني از قفل اديت وسنجاق \n"
         .."🏅 سرعت بالا بدون جاگذاشتن لينک \n"
         .."🏅 لانچ شدن خودکار هر 3دقيقه \n"
         .."🏅  ديباگ شده و قدرتمند \n"
-        .."🏅  ويرايش و ارتقا: @Zzz_MahsA_zzZ \n"
         .."🏅  کانال رسمي: @Porniv \n"
-        .."🏅  پيام رسان: @PorniveamPvBot \n"
-        .."🏅 سرور: #Hetzner \n"
-        .."🏅 رم: 16Gig \n"
-        .."🏅 پشتيباني: JoveServer.Com \n"
+        .."🏅  پيام رسان: @PvRahbarWolfbot \n"
         .." ................................. "
           tdcli.sendText(chat_id, msg.id_, 0, 1, nil, text, 1, 'md')
       end
